@@ -4,6 +4,11 @@ using namespace std;
 
 int nummove = 0;
 
+//Check if n is odd or even.
+bool isEven(int num) {
+    return num%2==0;
+}
+
 int main() {
     vector<int> tower[3];
     int n, candidate, to, from;
@@ -18,7 +23,8 @@ int main() {
 
     //initialize candidates and to, from towers
     from = 0;
-    to = 1;
+    if (isEven(n)) to = 2; //If the number of disk is even the initial to tower is Tower C.
+    else to = 1;
     candidate =1; // set up to 1 because no move has been done yet and smallest disk is assured
 
     while (tower[1].size()<n+1) { //While there are still disks to move around.
@@ -38,8 +44,13 @@ int main() {
         //get the next "to" tower
         //We've already set the from tower atp. We need to figure out which one from other two towers
         //is valid to be a "to" tower
-        if (tower[(from+1)%3].back()>tower[from].back()) to =(from+1)%3; // if the next tower from the "from" tower has bigger disk, then it is the "to" tower.
-        else to = (from+2)%3; // if not, put the disk on other tower.
+        if (isEven(n)) { // move counter clockwise if n is even.
+            if (tower[(from+2)%3].back()>tower[from].back()) to = (from+2)%3;
+            else to = (from+1)%3;
+        } else {
+            if (tower[(from+1)%3].back()>tower[from].back()) to =(from+1)%3; // if the next tower from the "from" tower has bigger disk, then it is the "to" tower.
+            else to = (from+2)%3; // if not, put the disk on other tower.
+        }
 
         //The next candidate.
         candidate = tower[from].back(); //the disk from "from" tower.
