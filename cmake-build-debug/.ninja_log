@@ -1,0 +1,17 @@
+# ninja log v6
+6	396	1732938163665177048	CMakeFiles/Towers_of_Hanoi.dir/main.cpp.o.ddi	3480b8f0a9d56c9d
+396	411	1732938164070374340	CMakeFiles/Towers_of_Hanoi.dir/CXX.dd	e39a24fbbcea6119
+396	411	1732938164070374340	/Users/feenix/Desktop/CSCI211/Towers of Hanoi/cmake-build-debug/CMakeFiles/Towers_of_Hanoi.dir/CXXModules.json	e39a24fbbcea6119
+396	411	1732938164070374340	CMakeFiles/Towers_of_Hanoi.dir/main.cpp.o.modmap	e39a24fbbcea6119
+412	953	1732938164071115966	CMakeFiles/Towers_of_Hanoi.dir/main.cpp.o	bd6f34e77901b0f9
+956	1122	1732938164615093533	Towers_of_Hanoi	636d3cf375665c31
+6	328	1732941418514327235	CMakeFiles/Towers_of_Hanoi.dir/main.cpp.o.ddi	3480b8f0a9d56c9d
+328	342	1732941418836165305	CMakeFiles/Towers_of_Hanoi.dir/CXX.dd	e39a24fbbcea6119
+328	342	1732941418836165305	/Users/feenix/Desktop/CSCI211/Towers of Hanoi/cmake-build-debug/CMakeFiles/Towers_of_Hanoi.dir/CXXModules.json	e39a24fbbcea6119
+328	342	1732941418836165305	CMakeFiles/Towers_of_Hanoi.dir/main.cpp.o.modmap	e39a24fbbcea6119
+6	304	1732941433088531848	CMakeFiles/Towers_of_Hanoi.dir/main.cpp.o.ddi	3480b8f0a9d56c9d
+304	318	1732941433387047138	CMakeFiles/Towers_of_Hanoi.dir/CXX.dd	e39a24fbbcea6119
+304	318	1732941433387047138	/Users/feenix/Desktop/CSCI211/Towers of Hanoi/cmake-build-debug/CMakeFiles/Towers_of_Hanoi.dir/CXXModules.json	e39a24fbbcea6119
+304	318	1732941433387047138	CMakeFiles/Towers_of_Hanoi.dir/main.cpp.o.modmap	e39a24fbbcea6119
+318	847	1732941433401046478	CMakeFiles/Towers_of_Hanoi.dir/main.cpp.o	bd6f34e77901b0f9
+847	995	1732941433929825556	Towers_of_Hanoi	636d3cf375665c31

@@ -1,0 +1,9 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "CMakeFiles/Towers_of_Hanoi.dir/main.cpp.o"
+    }
+  ],
+  "version": 1
+}
